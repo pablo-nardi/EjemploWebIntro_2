@@ -7,7 +7,7 @@ public class Alquiler {
 			idSucursal,
 			idPlan;
 	
-	float	costoPorDaÃ±os,
+	float	costoPorDaños,
 			costoDevolucionTardia,
 			codtoTanqueSinLlenar,
 			importeAcordado,
@@ -37,8 +37,8 @@ public class Alquiler {
 		return idPlan;
 	}
 
-	public float getCostoPorDaÃ±os() {
-		return costoPorDaÃ±os;
+	public float getCostoPorDaños() {
+		return costoPorDaños;
 	}
 
 	public float getCostoDevolucionTardia() {
@@ -97,8 +97,8 @@ public class Alquiler {
 		this.idPlan = idPlan;
 	}
 
-	public void setCostoPorDaÃ±os(float costoPorDaÃ±os) {
-		this.costoPorDaÃ±os = costoPorDaÃ±os;
+	public void setCostoPorDaños(float costoPorDaños) {
+		this.costoPorDaños = costoPorDaños;
 	}
 
 	public void setCostoDevolucionTardia(float costoDevolucionTardia) {
